@@ -25,3 +25,10 @@ function greet() {
 
 #call a fuction 
 greet "alice" "joao"
+
+# Conditional statement
+if [ -f "mybash.sh" ]; then
+    echo "The file mybash.sh exists."
+else 
+    echo "the file mybash.sh does not exists"
+fi
