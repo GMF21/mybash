@@ -14,3 +14,14 @@ echo "the first fruit is: ${fruits[0]}"
 for fruit in "${fruits[@]}"; do
     echo $fruit
 done
+
+# Define a fuction
+function greet() {
+    local name=$1
+    local name2=$2
+    echo "hello, $name!"
+    echo "hello, $name2!"
+}
+
+#call a fuction 
+greet "alice" "joao"
