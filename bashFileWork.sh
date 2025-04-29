@@ -14,3 +14,5 @@ else
 fi
 
 echo "Backup of $1 created as $2" 
+
+# TPC: Fazer o clone criar como <filename>_Data_Hora.bck 
